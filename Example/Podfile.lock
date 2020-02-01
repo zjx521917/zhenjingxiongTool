@@ -1,0 +1,16 @@
+PODS:
+  - zhenjingxiongTool (0.1.0)
+
+DEPENDENCIES:
+  - zhenjingxiongTool (from `../`)
+
+EXTERNAL SOURCES:
+  zhenjingxiongTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  zhenjingxiongTool: c497889329c2826997ff447207c4ef6e31d52eb9
+
+PODFILE CHECKSUM: 31b8950be67a1023132ddd1c51966fa61e87fe2e
+
+COCOAPODS: 1.8.4

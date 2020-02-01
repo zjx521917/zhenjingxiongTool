@@ -40,7 +40,7 @@
 		22DFDAFB7CA62E0D2D5BDBEC /* Pods_zhenjingxiongTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhenjingxiongTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		238BE429749BF5D3F973FE8D /* Pods_zhenjingxiongTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhenjingxiongTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DBB435BA8294D2E19AA999 /* Pods-zhenjingxiongTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhenjingxiongTool_Example.release.xcconfig"; path = "Target Support Files/Pods-zhenjingxiongTool_Example/Pods-zhenjingxiongTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4381F5E5B77E1EB00484DE11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4381F5E5B77E1EB00484DE11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F5180B8A174C51AA818F239 /* Pods-zhenjingxiongTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhenjingxiongTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-zhenjingxiongTool_Tests/Pods-zhenjingxiongTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5B713F41B1CE59D27EFEB43F /* Pods-zhenjingxiongTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhenjingxiongTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-zhenjingxiongTool_Example/Pods-zhenjingxiongTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* zhenjingxiongTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhenjingxiongTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,8 +65,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		914B5920395FB87A51EF7A52 /* Pods-zhenjingxiongTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhenjingxiongTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-zhenjingxiongTool_Tests/Pods-zhenjingxiongTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A97A222E0BEC0EF1DA7CD7D9 /* zhenjingxiongTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = zhenjingxiongTool.podspec; path = ../zhenjingxiongTool.podspec; sourceTree = "<group>"; };
-		F27683946F505D42D618174A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A97A222E0BEC0EF1DA7CD7D9 /* zhenjingxiongTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = zhenjingxiongTool.podspec; path = ../zhenjingxiongTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F27683946F505D42D618174A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				914B5920395FB87A51EF7A52 /* Pods-zhenjingxiongTool_Tests.debug.xcconfig */,
 				4F5180B8A174C51AA818F239 /* Pods-zhenjingxiongTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
